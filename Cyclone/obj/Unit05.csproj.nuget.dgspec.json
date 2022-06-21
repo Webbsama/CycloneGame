@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/swebb/Documents/School/2022/Spring/CSE210/CycloneGame/Cyclone/Unit05.csproj": {}
+    "C:\\Users\\stead\\OneDrive\\Desktop\\Current_Classes\\Spring_2022\\Programming_with_Classes\\Repositories\\cse210-student-developer-csharp\\cycleRepo\\CycloneGame\\Cyclone\\Unit05.csproj": {}
   },
   "projects": {
-    "/Users/swebb/Documents/School/2022/Spring/CSE210/CycloneGame/Cyclone/Unit05.csproj": {
+    "C:\\Users\\stead\\OneDrive\\Desktop\\Current_Classes\\Spring_2022\\Programming_with_Classes\\Repositories\\cse210-student-developer-csharp\\cycleRepo\\CycloneGame\\Cyclone\\Unit05.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/swebb/Documents/School/2022/Spring/CSE210/CycloneGame/Cyclone/Unit05.csproj",
+        "projectUniqueName": "C:\\Users\\stead\\OneDrive\\Desktop\\Current_Classes\\Spring_2022\\Programming_with_Classes\\Repositories\\cse210-student-developer-csharp\\cycleRepo\\CycloneGame\\Cyclone\\Unit05.csproj",
         "projectName": "Unit05",
-        "projectPath": "/Users/swebb/Documents/School/2022/Spring/CSE210/CycloneGame/Cyclone/Unit05.csproj",
-        "packagesPath": "/Users/swebb/.nuget/packages/",
-        "outputPath": "/Users/swebb/Documents/School/2022/Spring/CSE210/CycloneGame/Cyclone/obj/",
+        "projectPath": "C:\\Users\\stead\\OneDrive\\Desktop\\Current_Classes\\Spring_2022\\Programming_with_Classes\\Repositories\\cse210-student-developer-csharp\\cycleRepo\\CycloneGame\\Cyclone\\Unit05.csproj",
+        "packagesPath": "C:\\Users\\stead\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stead\\OneDrive\\Desktop\\Current_Classes\\Spring_2022\\Programming_with_Classes\\Repositories\\cse210-student-developer-csharp\\cycleRepo\\CycloneGame\\Cyclone\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/swebb/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\stead\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
