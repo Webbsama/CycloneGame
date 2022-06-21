@@ -121,11 +121,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/swebb/Documents/School/2022/Spring/CSE210/PrepareAssignments/Unit05/Unit05.csproj",
+      "projectUniqueName": "/Users/swebb/Documents/School/2022/Spring/CSE210/CycloneGame/Cyclone/Unit05.csproj",
       "projectName": "Unit05",
-      "projectPath": "/Users/swebb/Documents/School/2022/Spring/CSE210/PrepareAssignments/Unit05/Unit05.csproj",
+      "projectPath": "/Users/swebb/Documents/School/2022/Spring/CSE210/CycloneGame/Cyclone/Unit05.csproj",
       "packagesPath": "/Users/swebb/.nuget/packages/",
-      "outputPath": "/Users/swebb/Documents/School/2022/Spring/CSE210/PrepareAssignments/Unit05/obj/",
+      "outputPath": "/Users/swebb/Documents/School/2022/Spring/CSE210/CycloneGame/Cyclone/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/swebb/.nuget/NuGet/NuGet.Config"
