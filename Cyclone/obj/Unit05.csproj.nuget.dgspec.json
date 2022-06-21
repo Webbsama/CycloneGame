@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/swebb/Documents/School/2022/Spring/CSE210/PrepareAssignments/Unit05/Unit05.csproj": {}
+  },
+  "projects": {
+    "/Users/swebb/Documents/School/2022/Spring/CSE210/PrepareAssignments/Unit05/Unit05.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/swebb/Documents/School/2022/Spring/CSE210/PrepareAssignments/Unit05/Unit05.csproj",
+        "projectName": "Unit05",
+        "projectPath": "/Users/swebb/Documents/School/2022/Spring/CSE210/PrepareAssignments/Unit05/Unit05.csproj",
+        "packagesPath": "/Users/swebb/.nuget/packages/",
+        "outputPath": "/Users/swebb/Documents/School/2022/Spring/CSE210/PrepareAssignments/Unit05/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/swebb/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "raylib-cs": {
+              "target": "Package",
+              "version": "[3.7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

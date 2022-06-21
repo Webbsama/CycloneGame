@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ryeewYNqABLjmj1kkfQcAf7ro8s2pjK4/oVxvzt3/ZIDuIB7gtxK0kiU9/wQav4BX/YQR2oTUFoBW4Yiqsjwvw==",
+  "success": true,
+  "projectFilePath": "/Users/swebb/Documents/School/2022/Spring/CSE210/PrepareAssignments/Unit05/Unit05.csproj",
+  "expectedPackageFiles": [
+    "/Users/swebb/.nuget/packages/raylib-cs/3.7.0.1/raylib-cs.3.7.0.1.nupkg.sha512",
+    "/Users/swebb/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
