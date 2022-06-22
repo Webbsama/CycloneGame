@@ -39,6 +39,10 @@ namespace Unit05.Game.Scripting
             {
                 actor.MoveNext();
             }
+            Snake snake1 = (Snake)cast.GetFirstActor("snake1");
+            Snake snake2 = (Snake)cast.GetFirstActor("snake2");
+            snake1.GrowTail(1);
+            snake2.GrowTail(1);
         }
     }
 
