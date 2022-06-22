@@ -14,7 +14,7 @@ namespace Unit05.Game.Casting
     {
         private string text = "";
         private int fontSize = 15;
-        private Color color = Constants.WHITE;
+        protected Color color = Constants.WHITE;
         private Point position = new Point(0, 0);
         private Point velocity = new Point(0, 0);
 
