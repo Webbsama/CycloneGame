@@ -4,7 +4,7 @@ using Unit05.Game.Scripting;
 using Unit05.Game.Services;
 
 
-namespace Unit05
+namespace Unit05.Game
 {
     /// <summary>
     /// The program's entry point.
@@ -20,7 +20,7 @@ namespace Unit05
             Snake snake1 = new Snake();
             snake1.SetColor(Constants.GREEN);
             Snake snake2 = new Snake();
-            snake2.SetColor(Constatns.RED);
+            snake2.SetColor(Constants.RED);
             
             // create the cast
             Cast cast = new Cast();
