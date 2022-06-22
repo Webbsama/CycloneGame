@@ -116,19 +116,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\stead\\.nuget\\packages\\": {}
+    "/Users/swebb/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\stead\\OneDrive\\Desktop\\Current_Classes\\Spring_2022\\Programming_with_Classes\\Repositories\\cse210-student-developer-csharp\\cycleRepo\\CycloneGame\\Cyclone\\Unit05.csproj",
+      "projectUniqueName": "/Users/swebb/Documents/School/2022/Spring/CSE210/CycloneGame/Cyclone/Unit05.csproj",
       "projectName": "Unit05",
-      "projectPath": "C:\\Users\\stead\\OneDrive\\Desktop\\Current_Classes\\Spring_2022\\Programming_with_Classes\\Repositories\\cse210-student-developer-csharp\\cycleRepo\\CycloneGame\\Cyclone\\Unit05.csproj",
-      "packagesPath": "C:\\Users\\stead\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\stead\\OneDrive\\Desktop\\Current_Classes\\Spring_2022\\Programming_with_Classes\\Repositories\\cse210-student-developer-csharp\\cycleRepo\\CycloneGame\\Cyclone\\obj\\",
+      "projectPath": "/Users/swebb/Documents/School/2022/Spring/CSE210/CycloneGame/Cyclone/Unit05.csproj",
+      "packagesPath": "/Users/swebb/.nuget/packages/",
+      "outputPath": "/Users/swebb/Documents/School/2022/Spring/CSE210/CycloneGame/Cyclone/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\stead\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/swebb/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -172,7 +172,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.300/RuntimeIdentifierGraph.json"
       }
     }
   }

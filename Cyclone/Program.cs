@@ -17,6 +17,11 @@ namespace Unit05
         /// <param name="args">The given arguments.</param>
         static void Main(string[] args)
         {
+            Snake snake1 = new Snake();
+            snake1.SetColor(Constants.GREEN);
+            Snake snake2 = new Snake();
+            snake2.SetColor(Constatns.RED);
+            
             // create the cast
             Cast cast = new Cast();
             cast.AddActor("snake1", new Snake());
