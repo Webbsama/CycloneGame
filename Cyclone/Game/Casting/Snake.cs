@@ -100,15 +100,33 @@ namespace Unit05.Game.Casting
         /// </summary>
         public void PrepareBody()
         {
-            int x = Constants.MAX_X / 2;
-            int y = Constants.MAX_Y / 2;
+            int x1 = Constants.MAX_X / 3;
+            int y1 = Constants.MAX_Y / 3;
 
             for (int i = 0; i < Constants.SNAKE_LENGTH; i++)
             {
-                Point position = new Point(x - i * Constants.CELL_SIZE, y);
+                Point position = new Point(x1 - i * Constants.CELL_SIZE, y1);
                 Point velocity = new Point(1 * Constants.CELL_SIZE, 0);
                 string text = i == 0 ? "8" : "#";
                 Color color = i == 0 ? Constants.GREEN : Constants.GREEN;
+
+                Actor segment = new Actor();
+                segment.SetPosition(position);
+                segment.SetVelocity(velocity);
+                segment.SetText(text);
+                segment.SetColor(color);
+                segments.Add(segment);
+            }
+
+            int x2 = Constants.MAX_X / 6;
+            int y2 = Constants.MAX_Y / 6;
+
+            for (int i = 0; i < Constants.SNAKE_LENGTH; i++)
+            {
+                Point position = new Point(x2 - i * Constants.CELL_SIZE, y2);
+                Point velocity = new Point(1 * Constants.CELL_SIZE, 0);
+                string text = i == 0 ? "8" : "#";
+                Color color = i == 0 ? Constants.RED : Constants.RED;
 
                 Actor segment = new Actor();
                 segment.SetPosition(position);
