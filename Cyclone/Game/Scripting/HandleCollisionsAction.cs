@@ -97,13 +97,18 @@ namespace Unit05.Game.Scripting
                 List<Actor> segments2 = snake2.GetSegments();
 
                 // create a "game over" message
-                int x = Constants.MAX_X / 2;
-                int y = Constants.MAX_Y / 2;
-                Point position = new Point(x, y);
+                int x1 = Constants.MAX_X / 2;
+                int y1 = Constants.MAX_Y / 2;
+                Point position1 = new Point(x1, y1);
+
+                int x2 = Constants.MAX_X / 2;
+                int y2 = Constants.MAX_Y / 2;
+                Point position2 = new Point(x2, y2);
 
                 Actor message = new Actor();
                 message.SetText("Game Over!");
-                message.SetPosition(position);
+                message.SetPosition(position1);
+                message.SetPosition(position2);
                 cast.AddActor("messages", message);
 
                 // make everything white

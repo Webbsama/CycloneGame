@@ -53,7 +53,7 @@ namespace Unit05.Game.Casting
         /// <param name="numberOfSegments">The number of segments to grow.</param>
         public void GrowTail(int numberOfSegments)
         {
-            for (int i = 0; i < numberOfSegments; i++)
+            for (int i1 = 0; i1 < numberOfSegments; i1++)
             {
                 Actor tail = segments.Last<Actor>();
                 Point velocity = tail.GetVelocity();
@@ -67,7 +67,7 @@ namespace Unit05.Game.Casting
                 segment.SetColor(color);
                 segments.Add(segment);
             }
-        }
+        }        
 
         /// <inheritdoc/>
         public override void MoveNext()
