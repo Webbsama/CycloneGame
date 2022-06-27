@@ -11,8 +11,8 @@ namespace Unit05.Game.Casting
     /// </summary>
     public class Score : Actor
     {
-        private int points = 0;
-
+        private int points1 = 0;
+        private int points2 = 0;
         /// <summary>
         /// Constructs a new instance of an Food.
         /// </summary>
@@ -20,15 +20,17 @@ namespace Unit05.Game.Casting
         {
             AddPoints(0);
         }
-
+        
         /// <summary>
         /// Adds the given points to the score.
         /// </summary>
         /// <param name="points">The points to add.</param>
         public void AddPoints(int points)
         {
-            this.points += points;
-            SetText($"Score: {this.points}");
+            this.points1 += points1;
+            SetText($"Score: {this.points1}");
+            this.points2 += points2;
+            SetText($"Score: {this.points2}");
         }
     }
 }
