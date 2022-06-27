@@ -17,15 +17,15 @@ namespace Unit05.Game
         /// <param name="args">The given arguments.</param>
         static void Main(string[] args)
         {
-            Snake snake1 = new Snake();
+            Snake snake1 = new Snake(3);
             snake1.SetColor(Constants.GREEN);
-            Snake snake2 = new Snake();
+            Snake snake2 = new Snake(6);
             snake2.SetColor(Constants.RED);
             
             // create the cast
             Cast cast = new Cast();
-            cast.AddActor("snake1", new Snake());
-            cast.AddActor("snake2", new Snake());
+            cast.AddActor("snake1", snake1);
+            cast.AddActor("snake2", snake2);
             cast.AddActor("score", new Score());
 
             // create the services

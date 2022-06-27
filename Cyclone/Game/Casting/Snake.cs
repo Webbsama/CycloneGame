@@ -15,9 +15,9 @@ namespace Unit05.Game.Casting
         /// <summary>
         /// Constructs a new instance of a Snake.
         /// </summary>
-        public Snake()
+        public Snake(int place)
         {
-            PrepareBody();
+            PrepareBody(place);
         }
 
         /// <summary>
@@ -98,10 +98,10 @@ namespace Unit05.Game.Casting
         /// <summary>
         /// Prepares the snake body for moving.
         /// </summary>
-        public void PrepareBody()
+        public void PrepareBody(int place)
         {
-            int x1 = Constants.MAX_X / 3;
-            int y1 = Constants.MAX_Y / 3;
+            int x1 = Constants.MAX_X / place;
+            int y1 = Constants.MAX_Y / place;
 
             for (int i = 0; i < Constants.SNAKE_LENGTH; i++)
             {
@@ -118,23 +118,23 @@ namespace Unit05.Game.Casting
                 segments.Add(segment);
             }
 
-            int x2 = Constants.MAX_X / 6;
-            int y2 = Constants.MAX_Y / 6;
+            // int x2 = Constants.MAX_X / 6;
+            // int y2 = Constants.MAX_Y / 6;
 
-            for (int i = 0; i < Constants.SNAKE_LENGTH; i++)
-            {
-                Point position = new Point(x2 - i * Constants.CELL_SIZE, y2);
-                Point velocity = new Point(1 * Constants.CELL_SIZE, 0);
-                string text = i == 0 ? "8" : "#";
-                Color color = i == 0 ? Constants.RED : Constants.RED;
+            // for (int i = 0; i < Constants.SNAKE_LENGTH; i++)
+            // {
+            //     Point position = new Point(x2 - i * Constants.CELL_SIZE, y2);
+            //     Point velocity = new Point(1 * Constants.CELL_SIZE, 0);
+            //     string text = i == 0 ? "8" : "#";
+            //     Color color = i == 0 ? Constants.RED : Constants.RED;
 
-                Actor segment = new Actor();
-                segment.SetPosition(position);
-                segment.SetVelocity(velocity);
-                segment.SetText(text);
-                segment.SetColor(color);
-                segments.Add(segment);
-            }
+            //     Actor segment = new Actor();
+            //     segment.SetPosition(position);
+            //     segment.SetVelocity(velocity);
+            //     segment.SetText(text);
+            //     segment.SetColor(color);
+            //     segments.Add(segment);
+            // }
         }
     }
 }
