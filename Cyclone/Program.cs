@@ -17,9 +17,9 @@ namespace Unit05.Game
         /// <param name="args">The given arguments.</param>
         static void Main(string[] args)
         {
-            Snake snake1 = new Snake(3);
+            Snake snake1 = new Snake(-5);
             snake1.SetColor(Constants.GREEN);
-            Snake snake2 = new Snake(6);
+            Snake snake2 = new Snake(10);
             snake2.SetColor(Constants.RED);
             
             // create the cast
